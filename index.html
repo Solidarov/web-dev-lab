@@ -3,231 +3,190 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./static/css/main.css">
     <title>Home Page | ORION</title>
 </head>
 <body>
 
-    <header id="site-header" role="banner">
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img alt="Logo" src="./static/images/logo.png" width="100">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        HOME
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        ABOUT US
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        BLOG
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        CONTACT US
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        BUY NOW
-                    </a>
-                </li>
-            </ul>
-            
-        </nav>
+    <header id="site-header">
+        <div class="header-inner">
+            <a href="#" class="logo-link">
+                <img alt="Logo" src="./static/images/logo.png" class="logo" width="100">
+            </a>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">BUY NOW</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <div class="page-layout">
+
+        <main id="main-content">
+            <h1>Welcome to ORION</h1>
+            
+            <section class="content-block">
+                <p>
+                    Darkness has settled over the lands of Orion. Once a place of 
+                    peace and wonder, the kingdom now trembles under the shadow of 
+                    cursed forests, haunted ruins, and forgotten castles. 
+                    You take the role of a lone warrior — nameless, burdened 
+                    with destiny, yet driven by a burning will to uncover the 
+                    truth behind the world’s fall into chaos.
+                </p>
+            </section>
+            
+            <section class="content-block reverse">
+                <div class="text-wrap">
+
+                    <img class="img-left" alt="ScreenShot 1" src="./static/images/1_maincontent.png" width="300">
+                    
+                    <h2>A Journey Through Shadows and Light</h2>
+                    <p>Your path will take you across dangerous landscapes:</p>
+                    <ul>
+                        <li>Forests where twisted creatures stalk the night.</li>
+                        <li>Ruins echoing with whispers of ancient battles.</li>
+                        <li>Caverns and castles filled with traps, treasures, and secrets left by civilizations long gone.</li>
+                    </ul>
+                    <p>
+                        Every step forward unveils new challenges, hidden lore, 
+                        and enemies that grow more cunning and merciless the deeper 
+                        you venture.
+                    </p>
+                </div>
+            </section>
+            
+            <section class="content-block">
+                <div class="text-wrap">
+                    <img class="img-right" alt="ScreenShot 2" src="./static/images/2_maincontent.png" width="300">
+                    <h2>Combat That Tests Your Skill</h2>
+                    <p>
+                        Orion is built on tight, responsive combat. 
+                        With your sword in hand, you’ll clash with 
+                        skeleton warriors, monstrous beasts, and towering 
+                        bosses that demand strategy and precision. 
+                        Victory comes only to those who can read their 
+                        enemies’ movements, strike at the right moment, 
+                        and adapt to every encounter.
+                    </p>    
+                    <ul>
+                        <li>
+                            Sword and shield mastery: Balance offense 
+                            and defense in battles that reward timing and 
+                            reflexes.
+                        </li>
+                        <li>
+                            Challenging enemies: From swift bats to armored 
+                            knights, every foe has unique attack patterns to 
+                            learn and overcome.
+                        </li>
+                        <li>
+                            Epic boss fights: Conquer guardians of each realm, 
+                            each more dangerous and spectacular than the last.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            
+            <section class="features">
+                <div class="text-wrap">
+                    <img class="img-left" alt="ScreenShot 3" src="./static/images/3_maincontent.png" width="300">
+                    <h2>Features at a Glance</h2>
+                    <p>
+                        <ul>
+                            <li>Classic 2D side-scrolling action with modern mechanics.</li>
+                            <li>A vast world filled with secrets, shortcuts, and hidden treasures.</li>
+                            <li>An evolving story that unfolds as you progress.</li>
+                            <li>A distinctive color palette of deep blues, fiery oranges, and glowing golds for a unique visual identity.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Orion isn't just a game - it's a test of courage, skill, and perseverance. The path ahead is unforgiving, but glory awaits
+                        those who date to challenge the darkness.
+                    </p>
+                    <p>
+                        Will you rise as the hero this world desperately needs... or fall into legend as another forgotten soul?
+                    </p>
+                </div>
+            </section>
+        </main>
     
-    
-    
-    <main id="main-content">
-        <h1>Welcome to ORION</h1>
-        
-        <p>
-            Darkness has settled over the lands of Orion. Once a place of 
-            peace and wonder, the kingdom now trembles under the shadow of 
-            cursed forests, haunted ruins, and forgotten castles. 
-            You take the role of a lone warrior — nameless, burdened 
-            with destiny, yet driven by a burning will to uncover the 
-            truth behind the world’s fall into chaos.
-        </p>
+        <div class="sidebar-wrapper">
+            <div id="first-sidebar">
+                <ul>
+                    <li><a href="#">Announcements</a></li>
+                    <li>
+                        <form>
+                            <input name="fsrc" id="fsrc" placeholder="Search...">
+                            <img alt="Magnifying glass" src="./static/images/magnifying-glass-solid-full.svg" width="20"> 
+                        </form>
+                    </li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Fandom</a></li>
+                    <li><a href="#">Check other games</a></li>
+                </ul>
+            </div>
 
-        <img alt="ScreenShot 1" src="./static/images/1_maincontent.png" width="300">
-        
-        <h2>A Journey Through Shadows and Light</h2>
-        
-        <p>
-            Your path will take you across dangerous landscapes:
-        </p>
-        
-        <ul>
-            <li>
-                Forests where twisted creatures stalk the night.
-            </li>
-            <li>
-                Ruins echoing with whispers of ancient battles.
-            </li>
-            <li>
-                Caverns and castles filled with traps, treasures, 
-                and secrets left by civilizations long gone.
-            </li>
-        </ul>
-        
-        <p>
-            Every step forward unveils new challenges, hidden lore, 
-            and enemies that grow more cunning and merciless the deeper 
-            you venture.
-        </p>
-
-        <img alt="ScreenShot 2" src="./static/images/2_maincontent.png" width="300">
-        
-        <h2>Combat That Tests Your Skill</h2>
-        
-        <p>
-            Orion is built on tight, responsive combat. 
-            With your sword in hand, you’ll clash with 
-            skeleton warriors, monstrous beasts, and towering 
-            bosses that demand strategy and precision. 
-            Victory comes only to those who can read their 
-            enemies’ movements, strike at the right moment, 
-            and adapt to every encounter.
-        </p>    
-        
-        <ul>
-            <li>
-                Sword and shield mastery: Balance offense 
-                and defense in battles that reward timing and 
-                reflexes.
-            </li>
-            <li>
-                Challenging enemies: From swift bats to armored 
-                knights, every foe has unique attack patterns to 
-                learn and overcome.
-            </li>
-            <li>
-                Epic boss fights: Conquer guardians of each realm, 
-                each more dangerous and spectacular than the last.
-            </li>
-        </ul>
-
-        <img alt="ScreenShot 3" src="./static/images/3_maincontent.png" width="300">
-        
-        <h2>Features at a Glance</h2>
-        
-        <p>
-            <ul>
-                <li>
-                    Classic 2D side-scrolling action with modern mechanics.
-                </li>
-                <li>
-                    A vast world filled with secrets, shortcuts, and hidden treasures.
-                </li>
-                <li>
-                    An evolving story that unfolds as you progress.
-                </li>
-                <li>
-                    A distinctive color palette of deep blues, 
-                    fiery oranges, and glowing golds for a unique 
-                    visual identity.
-                </li>
-            </ul>
-        </p>
-    </main>
-
-    <div id="first-sidebar">
-        <a href="#">Announcements</a>
-        <form>
-            <input name="fsrc" id="fsrc" placeholder="Search...">
-            <img alt="Magnifying glass" src="./static/images/magnifying-glass-solid-full.svg" width="20"> 
-        </form>
-        <a href="#">Tutorials</a>
-        <a href="#">Community</a>
-        <a href="#">Fandom</a>
-        <a href="#">Check other games</a>
+            <div id="second-sidebar">
+                <h2>Latest Releases</h2>
+                <ul>
+                    <li>Patch 1.0.3 – Enemy AI Improvements</li>
+                    <li>Patch 1.0.2 - Combat Balancing</li>
+                    <li>Patch 1.0.1 – Environment Fixes</li>
+                    <li>Day-One Hotfix</li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <div id="second-sidebar">
-        <h2>Latest Releases</h2>
-        <ul>
-            <li>Patch 1.0.3 – Enemy AI Improvements</li>
-            <li>Patch 1.0.2 - Combat Balancing</li>
-            <li>Patch 1.0.1 – Environment Fixes</li>
-            <li>Day-One Hotfix</li>
-        </ul>
-    </div>
+    
 
     <footer id="footer">
-        <img alt="Footer Logo" src="./static/images/footer_logo.png" width="200">
-        
-        <div>
-            <h3>Support</h3>
-            <ul>
-                <li>
-                    <a href="#">FAQ</a>
-                </li>
-                <li>
-                    <a href="#">Report a Bug</a>
-                </li>
-                <li>
-                    <a href="#">Patch Notes</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Terms of Services</a>
-                </li>
-            </ul>
-        </div>
-        
-        <div>
-            <h3>Community</h3>
-            <ul>
-                <li>
-                    <a href="#">Discord</a>
-                </li>
-                <li>
-                    <a href="#">Twitter/X</a>
-                </li>
-                <li>
-                    <a href="#">YouTube</a>
-                </li>
-                <li>
-                    <a href="#">Reddit</a>
-                </li>
-            </ul>
-        </div>
-        
+        <div class="footer-inner">
+            <div class="footer-col logo-col">
+                <img alt="Footer Logo" src="./static/images/footer_logo.png" width="200">
+            </div>
 
-        <div>
-            <h3>Navigation</h3>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About the Game</a>
-                </li>
-                <li>
-                    <a href="#">News & Updates</a>
-                </li>
-                <li>
-                    <a href="#">Media</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+            <div class="footer-col">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report a Bug</a></li>
+                    <li><a href="#">Patch Notes</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Twitter/X</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Reddit</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About the Game</a></li>
+                    <li><a href="#">News & Updates</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>  
         </div>
-
-        <p>© 2025 ORION Studios. All rights reserved.</p>
+        <div class="copyright">
+            <p>© 2025 ORION Studios. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
